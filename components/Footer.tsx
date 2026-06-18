@@ -29,12 +29,12 @@ export default function Footer() {
           <div className="space-y-4 text-white/50">
             <p className="flex gap-3">
               <Phone className="mt-1 text-yellow-400" size={18} />
-              +91 XXXXX XXXXX
+              +91 99529 52351
             </p>
 
             <p className="flex gap-3">
               <Mail className="mt-1 text-yellow-400" size={18} />
-              hello@company.com
+              hari@shiva.com
             </p>
 
             <p className="flex gap-3">

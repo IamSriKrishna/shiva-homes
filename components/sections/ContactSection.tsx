@@ -9,7 +9,7 @@ export default function ContactSection() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const phoneNumber = "919952952351";
+  const phoneNumber = "9952952351";
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -22,7 +22,7 @@ ${message}`;
 
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`,
-      "_blank"
+      "_blank",
     );
   };
 
@@ -53,8 +53,8 @@ ${message}`;
 
             <p className="flex items-start gap-3">
               <MapPin className="mt-1 text-yellow-400" />
-              Chowdry Nagar, 10th Cross St, Chowthri Nagar, Nesapakkam,
-              Chennai, Tamil Nadu 600087
+              Chowdry Nagar, 10th Cross St, Chowthri Nagar, Nesapakkam, Chennai,
+              Tamil Nadu 600087
             </p>
           </div>
         </motion.div>

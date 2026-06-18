@@ -22,7 +22,7 @@ export default function HeroSection() {
         poster="/hero-construction.jpg"
       />
 
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-black/10" />
 
       <motion.div
         style={{ y: textY }}
