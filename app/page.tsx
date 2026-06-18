@@ -17,18 +17,28 @@ import CoverageSection from "@/components/sections/CoverageSection";
 import GallerySection from "@/components/sections/GallerySection";
 import FaqSection from "@/components/sections/FaqSection";
 import CtaSection from "@/components/sections/CtaSection";
+import ProcessSection from "@/components/sections/ProcessSection";
+import AchievementsSection from "@/components/sections/AchievementsSection";
+import BeforeAfterSection from "@/components/sections/BeforeAfterSection";
+import ScrollToTop from "@/components/ScrollToTop";
+import Preloader from "@/components/Preloader";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white" >
+      <Preloader />
       <ScrollProgress />
       <WhatsAppButton />
+      <ScrollToTop />
       <Navbar />
       <HeroSection />
       <ClientsSection />
       <AboutSection />
+      <AchievementsSection/>
       <CoverageSection />
       <ServicesSection />
+      <ProcessSection />
+      <BeforeAfterSection />
       <PropertiesSection />
       <ProjectsSection />
       <FeaturedProjects />

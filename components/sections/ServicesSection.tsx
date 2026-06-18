@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Building2, Hammer, Warehouse, HardHat } from "lucide-react";
+import TiltCard from "../TiltCard";
 
 const services = [
   {
@@ -43,25 +44,29 @@ export default function ServicesSection() {
             const Icon = service.icon;
 
             return (
-              <motion.div
-                key={service.title}
-                initial={{ opacity: 0, y: 80 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 0.7,
-                  delay: index * 0.1,
-                }}
-                className="group rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-lg transition-all hover:-translate-y-2 hover:border-yellow-400/30"
-              >
-                <Icon size={42} className="mb-6 text-yellow-400" />
+              <TiltCard className="h-full">
+                <motion.div
+                  key={service.title}
+                  initial={{ opacity: 0, y: 80 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 0.7,
+                    delay: index * 0.1,
+                  }}
+                  className="group rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-lg transition-all hover:-translate-y-2 hover:border-yellow-400/30"
+                >
+                  <Icon size={42} className="mb-6 text-yellow-400" />
 
-                <h3 className="mb-4 text-2xl font-bold text-white">
-                  {service.title}
-                </h3>
+                  <h3 className="mb-4 text-2xl font-bold text-white">
+                    {service.title}
+                  </h3>
 
-                <p className="leading-7 text-white/60">{service.description}</p>
-              </motion.div>
+                  <p className="leading-7 text-white/60">
+                    {service.description}
+                  </p>
+                </motion.div>
+              </TiltCard>
             );
           })}
         </div>

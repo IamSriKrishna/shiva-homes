@@ -2,17 +2,18 @@
 
 import { motion } from "framer-motion";
 import { MapPin, Navigation } from "lucide-react";
+import RevealText from "../RevealText";
 
 const points = [
   { city: "Chennai", x: "50%", y: "50%", main: true },
-  { city: "Coimbatore", x: "14%", y: "26%" },
-  { city: "Madurai", x: "25%", y: "78%" },
-  { city: "Trichy", x: "43%", y: "80%" },
-  { city: "Salem", x: "34%", y: "24%" },
-  { city: "Erode", x: "20%", y: "52%" },
-  { city: "Vellore", x: "66%", y: "22%" },
-  { city: "Kanchipuram", x: "75%", y: "58%" },
-  { city: "Thanjavur", x: "60%", y: "82%" },
+  { city: "Porur", x: "14%", y: "26%" },
+  { city: "Adyar", x: "25%", y: "78%" },
+  { city: "Thiruvanmiyur", x: "43%", y: "80%" },
+  { city: "Purasawalkam", x: "34%", y: "24%" },
+  { city: "Pallikaranai", x: "20%", y: "52%" },
+  { city: "Ambattur", x: "66%", y: "22%" },
+  { city: "Madhanandapuram", x: "75%", y: "58%" },
+  { city: "Ramapuram", x: "60%", y: "82%" },
   { city: "Tambaram", x: "82%", y: "36%" },
 ];
 
@@ -22,14 +23,16 @@ export default function CoverageSection() {
       <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-400/5 blur-3xl" />
 
       <div className="mx-auto max-w-7xl">
-        <p className="mb-4 text-sm uppercase tracking-[0.35em] text-yellow-400">
-          Coverage Network
-        </p>
-
-        <h2 className="max-w-4xl text-4xl font-black text-white md:text-6xl">
-          One trusted construction network across Tamil Nadu.
-        </h2>
-
+        <RevealText>
+          <p className="mb-4 text-sm uppercase tracking-[0.35em] text-yellow-400">
+            Coverage Network
+          </p>
+        </RevealText>
+        <RevealText>
+          <h2 className="max-w-4xl text-4xl font-black text-white md:text-6xl">
+            One trusted construction network across Tamil Nadu.
+          </h2>
+        </RevealText>
         <div className="relative mt-20 h-[650px] overflow-hidden rounded-[44px] border border-white/10 bg-[radial-gradient(circle_at_center,rgba(250,204,21,0.12),rgba(255,255,255,0.03),transparent_70%)] shadow-2xl">
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:48px_48px]" />
 

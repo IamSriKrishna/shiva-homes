@@ -6,23 +6,26 @@ import Counter from "../Counter";
 export default function HeroSection() {
   const { scrollY } = useScroll();
 
-  const videoY = useTransform(scrollY, [0, 600], [0, 180]);
-  const textY = useTransform(scrollY, [0, 600], [0, -120]);
+  const videoY = useTransform(scrollY, [0, 600], [0, 120]);
+  const textY = useTransform(scrollY, [0, 600], [0, -80]);
 
   return (
     <section id="home" className="relative min-h-screen overflow-hidden">
-      <motion.video
-        style={{ y: videoY }}
-        className="absolute inset-0 h-full w-full scale-110 object-cover"
-        src="/shiva.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster="/hero-construction.jpg"
-      />
+      <motion.div style={{ y: videoY }} className="absolute inset-0 scale-110">
+        <video
+          className="h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+        >
+          <source src="/shiva2.mp4" type="video/mp4" />
+        </video>
+      </motion.div>
 
-      <div className="absolute inset-0 bg-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-black/40 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
       <motion.div
         style={{ y: textY }}

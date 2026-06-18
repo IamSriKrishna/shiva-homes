@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import RevealText from "../RevealText";
 
 export default function AboutSection() {
   return (
@@ -12,13 +13,16 @@ export default function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <p className="mb-4 text-sm uppercase tracking-[0.35em] text-yellow-400">
-            About Us
-          </p>
-
+          <RevealText>
+            <p className="mb-4 text-sm uppercase tracking-[0.35em] text-yellow-400">
+              About Us
+            </p>
+          </RevealText>
+          <RevealText>
           <h2 className="text-4xl font-black leading-tight md:text-6xl">
             We build spaces that stand strong for generations.
           </h2>
+          </RevealText>
         </motion.div>
 
         <motion.div

@@ -15,7 +15,7 @@ export default function Counter({
     <CountUp
       start={0}
       end={end}
-      duration={3}
+      duration={5}
       enableScrollSpy
       scrollSpyOnce
     >
