@@ -40,7 +40,7 @@ export default function AboutSection() {
 
           <div className="mt-10 grid grid-cols-2 gap-4">
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-              <h3 className="text-3xl font-black text-yellow-400">250+</h3>
+              <h3 className="text-3xl font-black text-yellow-400">150+</h3>
               <p className="mt-2 text-white/60">Skilled Workers</p>
             </div>
 
