@@ -11,7 +11,7 @@ const images = [
   "/Suresh Nagar.png",
   "/levibe.png",
   "/aarupadai.png",
-  "/after.png",
+  "/after copy.png",
 ];
 
 export default function GallerySection() {
