@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Building2, Hammer, Warehouse, HardHat } from "lucide-react";
-import TiltCard from "../TiltCard";
+import TiltCard from "@/components/TiltCard";
+import SectionGlow from "../SectionGlow";
 
 const services = [
   {
@@ -30,6 +31,7 @@ const services = [
 export default function ServicesSection() {
   return (
     <section id="services" className="bg-[#050505] px-6 py-32 md:px-20">
+      <SectionGlow />
       <div className="mx-auto max-w-7xl">
         <p className="mb-4 text-sm uppercase tracking-[0.35em] text-yellow-400">
           Services
@@ -44,7 +46,7 @@ export default function ServicesSection() {
             const Icon = service.icon;
 
             return (
-              <TiltCard className="h-full">
+              <TiltCard key={service.title} className="h-full">
                 <motion.div
                   key={service.title}
                   initial={{ opacity: 0, y: 80 }}

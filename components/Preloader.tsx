@@ -26,7 +26,7 @@ export default function Preloader() {
             exit={{ opacity: 0 }}
             className="text-4xl font-black tracking-widest text-white md:text-6xl"
           >
-            SHIVA HOMES
+            SHIVAA HOMES
           </motion.h1>
 
           <motion.div

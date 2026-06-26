@@ -24,8 +24,6 @@ export default function HeroSection() {
         </video>
       </motion.div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-black/40 to-black/10" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
       <motion.div
         style={{ y: textY }}
@@ -58,14 +56,14 @@ export default function HeroSection() {
         <div className="mt-16 flex flex-wrap gap-10">
           <div>
             <h3 className="text-4xl font-black">
-              <Counter end={15} />+
+              <Counter end={25} />+
             </h3>
             <p className="text-white/60">Years Experience</p>
           </div>
 
           <div>
             <h3 className="text-4xl font-black">
-              <Counter end={500} />+
+              <Counter end={150} />+
             </h3>
             <p className="text-white/60">Projects Delivered</p>
           </div>

@@ -8,17 +8,17 @@ export default function AchievementsSection() {
       <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-4">
         {[
           {
-            value: 500,
+            value: 150,
             suffix: "+",
             title: "Projects Completed",
           },
           {
-            value: 15,
+            value: 25,
             suffix: "+",
             title: "Years Experience",
           },
           {
-            value: 100,
+            value: 150,
             suffix: "+",
             title: "Team Members",
           },

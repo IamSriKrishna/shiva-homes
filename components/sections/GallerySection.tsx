@@ -6,12 +6,12 @@ import { useState } from "react";
 
 
 const images = [
-  "/home1.jpeg",
-  "/home2.png",
-  "/home3.jpg",
-  "/home4.jpg",
-  "/home5.jpeg",
-  "/home6.jpg",
+  "/shivahomes.png",
+  "/Ramapuram.png",
+  "/Suresh Nagar.png",
+  "/levibe.png",
+  "/aarupadai.png",
+  "/after.png",
 ];
 
 export default function GallerySection() {

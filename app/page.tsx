@@ -22,6 +22,7 @@ import AchievementsSection from "@/components/sections/AchievementsSection";
 import BeforeAfterSection from "@/components/sections/BeforeAfterSection";
 import ScrollToTop from "@/components/ScrollToTop";
 import Preloader from "@/components/Preloader";
+import StickyQuoteBar from "@/components/StickyQuoteBar";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <WhatsAppButton />
       <ScrollToTop />
       <Navbar />
+      <StickyQuoteBar />
       <HeroSection />
       <ClientsSection />
       <AboutSection />

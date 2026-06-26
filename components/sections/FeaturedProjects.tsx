@@ -5,19 +5,29 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "Luxury Villa",
-    slug: "luxury-villa",
-    image: "/home1.jpeg",
+    title: "Ramapuram",
+    slug: "Ramapuram",
+    image: "/Ramapuram.png",
   },
   {
-    title: "Commercial Tower",
-    slug: "commercial-tower",
-    image: "/home2.png",
+    title: "Shivaa Homes",
+    slug: "shivahomes",
+    image: "/shivahomes.png",
   },
   {
-    title: "Industrial Facility",
-    slug: "industrial-facility",
-    image: "/home3.jpg",
+    title: "Suresh Nagar",
+    slug: "Suresh-Nagar",
+    image: "/Suresh Nagar.png",
+  },
+  {
+    title: "Le vibe",
+    slug: "levibe",
+    image: "/levibe.png",
+  },
+  {
+    title: "Aarupadai",
+    slug: "aarupadai",
+    image: "/aarupadai.png",
   },
 ];
 export default function FeaturedProjects() {
