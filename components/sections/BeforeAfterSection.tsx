@@ -47,7 +47,7 @@ export default function BeforeAfterSection() {
         >
           {/* AFTER — base layer, full size */}
           <img
-            src="/after.png"
+            src="/after copy.png"
             alt="After"
             className="absolute inset-0 w-full h-full object-cover"
             draggable={false}
@@ -55,7 +55,7 @@ export default function BeforeAfterSection() {
 
           {/* BEFORE — clipped, both images stay locked in place */}
           <img
-            src="/before.png"
+            src="/before copy.png"
             alt="Before"
             className="absolute inset-0 w-full h-full object-cover"
             style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}

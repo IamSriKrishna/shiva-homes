@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const projects = {
-  Ramapuram: {
+  "Ramapuram": {
     title: "Ramapuram",
     location: "Chennai, Tamil Nadu",
     image: "/Ramapuram.png",
@@ -14,7 +14,7 @@ const projects = {
     description:
       "Anadhasayanam – II is a premium G+3 residential apartment project by Shivaa Homes, showcasing contemporary architecture with elegant façade detailing, warm exterior lighting, and a sophisticated combination of textured stone and modern finishes. Designed to maximize natural light and ventilation, the building features spacious balconies, high-quality construction, and thoughtfully planned living spaces. Located in a well-connected neighborhood of Chennai, the project blends style, comfort, and durability, making it an ideal choice for modern urban families seeking quality craftsmanship and long-term value",
   },
-  shivahomes: {
+  "shivahomes": {
     title: "Shivaa Homes",
     location: "Chennai, Tamil Nadu",
     image: "/shivahomes.png",

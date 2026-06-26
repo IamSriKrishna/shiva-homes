@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shiva Construction & Real Estate | Chennai",
+  title: "Shivaa Homes Construction & Real Estate | Chennai",
   description:
     "Construction and real estate company building residential and commercial projects across Chennai and Tamil Nadu.",
 };
