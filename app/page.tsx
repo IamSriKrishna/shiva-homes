@@ -42,7 +42,7 @@ export default function Home() {
       <ProcessSection />
       <BeforeAfterSection />
       <PropertiesSection />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
       <FeaturedProjects />
       <GallerySection />
       <TestimonialsSection />
