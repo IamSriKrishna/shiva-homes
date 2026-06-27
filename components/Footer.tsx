@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-[#050505] px-6 py-16 md:px-20">
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
-          <h2 className="text-3xl font-black">SHIVA</h2>
+          <h2 className="text-3xl font-black">SHIVAA HOMES</h2>
           <p className="mt-4 max-w-md leading-7 text-white/50">
             Construction and real estate company building residential,
             commercial, and property development projects across Chennai and

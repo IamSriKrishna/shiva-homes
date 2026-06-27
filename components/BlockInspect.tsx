@@ -11,6 +11,7 @@ const isDevtoolsShortcut = (event: KeyboardEvent) => {
   if (isCtrlOrMeta && ["U", "u"].includes(key)) return true;
   if (isCtrlOrMeta && shiftKey && ["S", "s"].includes(key)) return true;
   if (isCtrlOrMeta && ["P", "p"].includes(key) && altKey) return true; // alt+ctrl+P
+  if (isCtrlOrMeta && shiftKey && ["P", "p"].includes(key)) return true;
 
   return false;
 };
