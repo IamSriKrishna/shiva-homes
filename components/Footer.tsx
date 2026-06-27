@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto mt-12 flex max-w-7xl flex-col justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/40 md:flex-row">
-        <p>© 2026 Shiva Construction & Real Estate. All rights reserved.</p>
+        <p>© 2026 Shivaa Homes Construction & Real Estate. All rights reserved.</p>
         <p>Built with precision.</p>
       </div>
     </footer>

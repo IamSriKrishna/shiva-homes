@@ -76,7 +76,7 @@ export default function Navbar() {
             className="fixed inset-0 z-[999] bg-black p-6 md:hidden"
           >
             <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-black">SHIVA</h2>
+              <h2 className="text-2xl font-black">SHIVAA HOMES</h2>
               <button onClick={() => setOpen(false)}>
                 <X />
               </button>
