@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Shivaa Homes Construction & Real Estate | Chennai",
   description:
     "Construction and real estate company building residential and commercial projects across Chennai and Tamil Nadu.",
+  icons: {
+    icon: "/icon.jpeg",
+  },
 };
 
 export default function RootLayout({
