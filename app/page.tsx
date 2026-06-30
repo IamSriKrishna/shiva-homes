@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import AboutSection from "@/components/sections/AboutSection";
 import ServicesSection from "@/components/sections/ServicesSection";
-import ProjectsSection from "@/components/sections/ProjectsSection";
 import FeaturedProjects from "@/components/sections/FeaturedProjects";
 import ScrollProgress from "@/components/ScrollProgress";
 import ClientsSection from "@/components/sections/ClientsSection";
@@ -42,7 +41,6 @@ export default function Home() {
       <ProcessSection />
       <BeforeAfterSection />
       <PropertiesSection />
-      {/* <ProjectsSection /> */}
       <FeaturedProjects />
       <GallerySection />
       <TestimonialsSection />
