@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Construction and real estate company building residential and commercial projects across Chennai and Tamil Nadu.",
   icons: {
-    icon: "/icon.jpeg",
+    icon: "/logo.jpeg",
   },
 };
 
